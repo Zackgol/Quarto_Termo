@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zaque\\source\\repos\\atividade02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9B4C0E-8D8A-4831-ADB0-91A078E349E6}|atividade02\\atividade02.csproj|c:\\users\\zaque\\source\\repos\\atividade02\\atividade02\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F9B4C0E-8D8A-4831-ADB0-91A078E349E6}|atividade02\\atividade02.csproj|solutionrelative:atividade02\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9B4C0E-8D8A-4831-ADB0-91A078E349E6}|atividade02\\atividade02.csproj|C:\\Users\\zaque\\source\\repos\\atividade02\\atividade02\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F9B4C0E-8D8A-4831-ADB0-91A078E349E6}|atividade02\\atividade02.csproj|solutionrelative:atividade02\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9B4C0E-8D8A-4831-ADB0-91A078E349E6}|atividade02\\atividade02.csproj|C:\\Users\\zaque\\source\\repos\\atividade02\\atividade02\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7F9B4C0E-8D8A-4831-ADB0-91A078E349E6}|atividade02\\atividade02.csproj|solutionrelative:atividade02\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F9B4C0E-8D8A-4831-ADB0-91A078E349E6}|atividade02\\atividade02.csproj|C:\\Users\\zaque\\source\\repos\\atividade02\\atividade02\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F9B4C0E-8D8A-4831-ADB0-91A078E349E6}|atividade02\\atividade02.csproj|solutionrelative:atividade02\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\zaque\\source\\repos\\atividade02\\atividade02\\Produto.cs",
+              "RelativeDocumentMoniker": "atividade02\\Produto.cs",
+              "ToolTip": "C:\\Users\\zaque\\source\\repos\\atividade02\\atividade02\\Produto.cs",
+              "RelativeToolTip": "atividade02\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T16:52:11.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Conexao.cs",
+              "DocumentMoniker": "C:\\Users\\zaque\\source\\repos\\atividade02\\atividade02\\Conexao.cs",
+              "RelativeDocumentMoniker": "atividade02\\Conexao.cs",
+              "ToolTip": "C:\\Users\\zaque\\source\\repos\\atividade02\\atividade02\\Conexao.cs",
+              "RelativeToolTip": "atividade02\\Conexao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T16:12:59.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\zaque\\source\\repos\\atividade02\\atividade02\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "atividade02\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\zaque\\source\\repos\\atividade02\\atividade02\\MainWindow.xaml",
+              "RelativeToolTip": "atividade02\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-25T16:11:43.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\zaque\\source\\repos\\atividade02\\atividade02\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "atividade02\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\zaque\\source\\repos\\atividade02\\atividade02\\MainWindow.xaml.cs",
+              "RelativeToolTip": "atividade02\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-25T16:11:43.156Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
