@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|c:\\users\\zaque\\downloads\\sistemafullstackapp\\sistemafullstackapp\\paginamovimentacoes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|solutionrelative:paginamovimentacoes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|solutionrelative:conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\paginahome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|solutionrelative:paginahome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\paginaprodutos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|solutionrelative:paginaprodutos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\paginamovimentacoes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|solutionrelative:paginamovimentacoes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\movimentacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|solutionrelative:movimentacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\paginaprodutos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4170A04C-4EC1-452A-962A-54B915F12879}|SistemaFullStackApp.csproj|solutionrelative:paginaprodutos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T18:38:25.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA8wCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T18:38:26.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaginaMovimentacoes.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\PaginaMovimentacoes.xaml.cs",
+              "RelativeDocumentMoniker": "PaginaMovimentacoes.xaml.cs",
+              "ToolTip": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\PaginaMovimentacoes.xaml.cs",
+              "RelativeToolTip": "PaginaMovimentacoes.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T18:38:25.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Conexao.cs",
+              "DocumentMoniker": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\Conexao.cs",
+              "RelativeDocumentMoniker": "Conexao.cs",
+              "ToolTip": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\Conexao.cs",
+              "RelativeToolTip": "Conexao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T19:29:46.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaginaHome.xaml",
+              "DocumentMoniker": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\PaginaHome.xaml",
+              "RelativeDocumentMoniker": "PaginaHome.xaml",
+              "ToolTip": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\PaginaHome.xaml",
+              "RelativeToolTip": "PaginaHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T18:38:25.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaginaProdutos.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\PaginaProdutos.xaml.cs",
+              "RelativeDocumentMoniker": "PaginaProdutos.xaml.cs",
+              "ToolTip": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\PaginaProdutos.xaml.cs",
+              "RelativeToolTip": "PaginaProdutos.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T18:50:41.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaginaMovimentacoes.xaml",
+              "DocumentMoniker": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\PaginaMovimentacoes.xaml",
+              "RelativeDocumentMoniker": "PaginaMovimentacoes.xaml",
+              "ToolTip": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\PaginaMovimentacoes.xaml",
+              "RelativeToolTip": "PaginaMovimentacoes.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T18:38:26.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Movimentacao.cs",
+              "DocumentMoniker": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\Movimentacao.cs",
+              "RelativeDocumentMoniker": "Movimentacao.cs",
+              "ToolTip": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\Movimentacao.cs",
+              "RelativeToolTip": "Movimentacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T19:27:24.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaginaProdutos.xaml",
+              "DocumentMoniker": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\PaginaProdutos.xaml",
+              "RelativeDocumentMoniker": "PaginaProdutos.xaml",
+              "ToolTip": "C:\\Users\\zaque\\Downloads\\SistemaFullStackApp\\SistemaFullStackApp\\PaginaProdutos.xaml",
+              "RelativeToolTip": "PaginaProdutos.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-26T18:38:26.148Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
