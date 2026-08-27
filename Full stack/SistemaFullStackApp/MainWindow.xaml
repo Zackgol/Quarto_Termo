@@ -1,0 +1,34 @@
+﻿<Window x:Class="SistemaFullStackApp.MainWindow"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ Title="Sistema de Gestão Full Stack" Height="500" Width="1024"
+ WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <!-- Coluna 0: Menu Lateral -->
+            <ColumnDefinition Width="200"/>
+            <!-- Coluna 1: Área de Conteúdo das Telas -->
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <!-- MENU LATERAL -->
+        <Border Grid.Column="0" Background="#2C3E50" Padding="10">
+            <StackPanel>
+                <TextBlock Text="MENU" Foreground="White" FontSize="18"
+                             FontWeight="Bold" Margin="0,0,0,20" HorizontalAlignment="Center"/>
+                <Button x:Name="btnMenuHome" Content=" Início" Height="40"
+                             Margin="0,0,0,10" Background="#34495E" Foreground="White"
+                             FontSize="14" Click="btnMenuHome_Click"/>
+                <Button x:Name="btnMenuProdutos" Content=" Produtos"
+                            Height="40"
+                             Margin="0,0,0,10" Background="#34495E"
+                            Foreground="White"
+                             FontSize="14" Click="btnMenuProdutos_Click"/>
+                
+            </StackPanel>
+        </Border>
+        <!-- CONTAINER ONDE AS TELAS SERÃO CARREGADAS -->
+        <Frame x:Name="MainFrame" Grid.Column="1"
+NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>
