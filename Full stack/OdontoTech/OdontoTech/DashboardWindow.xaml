@@ -1,0 +1,15 @@
+﻿<Window x:Class="OdontoTech.DashboardWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:OdontoTech"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="DashboardWindow">
+
+    <Grid>
+        <Label x:Name="txtBoasVindas" Content="&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Margin="336,173,0,0" VerticalAlignment="Top" Width="64" Height="35"/>
+
+    </Grid>
+</Window>
