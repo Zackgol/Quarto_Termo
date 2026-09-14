@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zaque\\OneDrive\\Documentos\\GitHub\\Quarto_Termo\\Full stack\\Mercado\\Mercado\\Mercado.csproj": {}
+    "C:\\Users\\zaque\\Downloads\\Mercado\\Mercado\\Mercado\\Mercado.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zaque\\OneDrive\\Documentos\\GitHub\\Quarto_Termo\\Full stack\\Mercado\\Mercado\\Mercado.csproj": {
+    "C:\\Users\\zaque\\Downloads\\Mercado\\Mercado\\Mercado\\Mercado.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zaque\\OneDrive\\Documentos\\GitHub\\Quarto_Termo\\Full stack\\Mercado\\Mercado\\Mercado.csproj",
+        "projectUniqueName": "C:\\Users\\zaque\\Downloads\\Mercado\\Mercado\\Mercado\\Mercado.csproj",
         "projectName": "Mercado",
-        "projectPath": "C:\\Users\\zaque\\OneDrive\\Documentos\\GitHub\\Quarto_Termo\\Full stack\\Mercado\\Mercado\\Mercado.csproj",
+        "projectPath": "C:\\Users\\zaque\\Downloads\\Mercado\\Mercado\\Mercado\\Mercado.csproj",
         "packagesPath": "C:\\Users\\zaque\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zaque\\OneDrive\\Documentos\\GitHub\\Quarto_Termo\\Full stack\\Mercado\\Mercado\\obj\\",
+        "outputPath": "C:\\Users\\zaque\\Downloads\\Mercado\\Mercado\\Mercado\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,9 +59,9 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.2, )"
             }
           },
           "imports": [

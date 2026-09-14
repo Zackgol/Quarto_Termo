@@ -7,17 +7,13 @@ namespace Mercado.Data
     public class MercadoContext : DbContext
     {
         public DbSet<Produto> Produtos => Set<Produto>();
-
-        // Banco em arquivo único (SQLite), não precisa instalar servidor nenhum.
-        private const string ConnectionString = "Data Source=mercado.db";
+       
+        private const string ConnectionString =
+            "Server=localhost;Port=3306;Database=mercado;User=root;Password=vidaloka1;";
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite(ConnectionString);
-
-            // Para usar SQL Server em vez de SQLite, troque a linha acima por:
-            // optionsBuilder.UseSqlServer(
-            //     @"Server=(localdb)\mssqllocaldb;Database=Mercado;Trusted_Connection=True;");
+            optionsBuilder.UseMySql(ConnectionString, ServerVersion.AutoDetect(ConnectionString));
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -25,7 +21,7 @@ namespace Mercado.Data
             modelBuilder.Entity<Produto>().Property(p => p.Preco).HasPrecision(10, 2);
         }
 
-        /// <summary>Garante que o banco existe e insere alguns produtos de exemplo na primeira vez.</summary>
+        
         public void GarantirBancoCriadoESeed()
         {
             Database.EnsureCreated();

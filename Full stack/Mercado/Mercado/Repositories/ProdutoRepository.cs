@@ -8,10 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Mercado.Repositories
 {
-    /// <summary>
-    /// Camada de acesso a dados. Todo método captura falhas do EF/SQLite e as
-    /// traduz para OperacaoBancoException, para a UI nunca ver exceção "crua".
-    /// </summary>
+    
     public class ProdutoRepository
     {
         private readonly MercadoContext _context;
@@ -33,11 +30,7 @@ namespace Mercado.Repositories
             }
         }
 
-        /// <summary>
-        /// Pesquisa parametrizada: nome (LIKE) e categoria são passados como
-        /// parâmetros da expressão LINQ — o EF Core traduz para SQL parametrizado,
-        /// protegido contra SQL Injection.
-        /// </summary>
+       
         public List<Produto> Buscar(string? termoNome, string? categoria)
         {
             try

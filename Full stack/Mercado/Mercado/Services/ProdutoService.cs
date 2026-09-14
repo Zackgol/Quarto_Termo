@@ -5,7 +5,6 @@ using Mercado.Repositories;
 
 namespace Mercado.Services
 {
-    /// <summary>Camada de serviço: valida regras de negócio antes de repassar ao repositório.</summary>
     public class ProdutoService
     {
         private readonly ProdutoRepository _repository;
