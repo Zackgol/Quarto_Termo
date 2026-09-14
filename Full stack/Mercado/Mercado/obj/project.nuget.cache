@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BsXO/e6bYus=",
+  "dgSpecHash": "FCiHGRMiZAk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\zaque\\Downloads\\Mercado\\Mercado\\Mercado\\Mercado.csproj",
+  "projectFilePath": "C:\\Users\\zaque\\OneDrive\\Documentos\\GitHub\\Quarto_Termo\\Full stack\\Mercado\\Mercado\\Mercado.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zaque\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\zaque\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
