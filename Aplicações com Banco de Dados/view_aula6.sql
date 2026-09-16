@@ -110,5 +110,8 @@ inner join produtos on produtos.id_produto = vendas.id_produto;
 
 select * from relatorio_vendas_detalhadas;
 -- <<<< 2 >>>>
-select categorias.id_categoria, vendas.quantidade from relatorio_total_vendas
+select 
+from vendas
+inner join produtos on produtos.id_produto = vendas.id_produto 
+inner join categorias on categorias.id_categoria = produtos.id_categoria
 group by categorias.nome_categoria;
