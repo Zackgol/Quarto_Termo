@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zaque\\OneDrive\\Documentos\\GitHub\\Quarto_Termo\\Full stack\\Trabalho 05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C476B467-174B-788E-A959-DA9D7A025756}|FilmesApp.csproj|c:\\users\\zaque\\downloads\\filmesapp\\filmesapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C476B467-174B-788E-A959-DA9D7A025756}|FilmesApp.csproj|c:\\users\\zaque\\downloads\\filmesapp\\filmesapp\\data\\filmescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\zaque\\Downloads\\FilmesApp\\FilmesApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Downloads\\FilmesApp\\FilmesApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\zaque\\Downloads\\FilmesApp\\FilmesApp\\MainWindow.xaml",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Downloads\\FilmesApp\\FilmesApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-14T17:05:41.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FilmesContext.cs",
+              "DocumentMoniker": "C:\\Users\\zaque\\Downloads\\FilmesApp\\FilmesApp\\Data\\FilmesContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Downloads\\FilmesApp\\FilmesApp\\Data\\FilmesContext.cs",
+              "ToolTip": "C:\\Users\\zaque\\Downloads\\FilmesApp\\FilmesApp\\Data\\FilmesContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Downloads\\FilmesApp\\FilmesApp\\Data\\FilmesContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T17:03:11.84Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
