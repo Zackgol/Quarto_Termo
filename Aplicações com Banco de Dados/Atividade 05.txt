@@ -1,0 +1,57 @@
+create database auditoria_db;
+use auditoria_db;
+
+create table funcionarios(
+	id_func int primary key auto_increment,
+    nome varchar(50) not null,
+    salario decimal(10,2) not null
+);
+
+CREATE TABLE log_salarios (
+    id_log          INT AUTO_INCREMENT PRIMARY KEY,
+    id_func         INT           NOT NULL,
+    salario_antigo  DECIMAL(10,2) NOT NULL,
+    salario_novo    DECIMAL(10,2) NOT NULL,
+    data_alteracao  DATETIME      NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT fk_log_func FOREIGN KEY (id_func)
+        REFERENCES funcionarios (id_func)
+);
+
+DELIMITER $$
+CREATE FUNCTION fn_calcular_imposto(salario DECIMAL(10,2))
+RETURNS DECIMAL(10,2)
+DETERMINISTIC
+BEGIN
+    IF salario <= 3000.00 THEN
+        RETURN 0.00;
+    ELSE
+        RETURN salario * 0.15;
+    END IF;
+END $$
+
+CREATE TRIGGER tg_audit_salario
+AFTER UPDATE ON funcionarios
+FOR EACH ROW
+BEGIN
+    IF NEW.salario != OLD.salario THEN
+        INSERT INTO log_salarios (id_func, salario_antigo, salario_novo, data_alteracao)
+        VALUES (OLD.id_func, OLD.salario, NEW.salario, NOW());
+    END IF;
+END $$
+DELIMITER ;
+
+INSERT INTO funcionarios (nome, salario) VALUES
+    ('Ana Souza', 2500.00),
+    ('Bruno Lima', 3000.00),
+    ('Carla Mendes', 4200.00),
+    ('Diego Ferreira', 6800.00);
+
+UPDATE funcionarios SET salario = 3500.00 WHERE id_func = 1;           -- deve logar
+UPDATE funcionarios SET salario = 6000.00 WHERE id_func = 4;           -- deve logar
+UPDATE funcionarios SET salario = 4200.00 WHERE id_func = 3;           -- não deve logar
+UPDATE funcionarios SET nome = 'Bruno Lima Santos' WHERE id_func = 2;  -- não deve logar
+
+SELECT id_func, nome, salario, fn_calcular_imposto(salario) AS imposto
+FROM funcionarios;
+
+SELECT * FROM log_salarios;
