@@ -1,0 +1,88 @@
+<Window x:Class="CineDiario.Views.EstanteWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Estante - CineDiário" Height="620" Width="1040"
+        WindowStartupLocation="CenterOwner"
+        Background="{StaticResource Fundo}" Foreground="{StaticResource Texto}" FontFamily="Segoe UI">
+    <Grid Margin="24">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="320"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="🎞  Estante" FontSize="24" FontWeight="Bold" Foreground="{StaticResource Dourado}" Grid.ColumnSpan="2" Margin="0,0,0,14"/>
+
+        <DataGrid x:Name="grade" Grid.Row="1" SelectionChanged="Grade_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Título" Binding="{Binding Titulo}" Width="2*"/>
+                <DataGridTextColumn Header="Diretor" Binding="{Binding Diretor}" Width="1.5*"/>
+                <DataGridTextColumn Header="Gênero" Binding="{Binding Genero}" Width="*"/>
+                <DataGridTextColumn Header="Ano" Binding="{Binding Ano}" Width="60"/>
+                <DataGridTextColumn Header="Nota" Binding="{Binding Estrelas}" Width="90"/>
+                <DataGridTextColumn Header="Situação" Binding="{Binding Situacao}" Width="90"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Border Grid.Row="1" Grid.Column="1" Background="{StaticResource Painel}" CornerRadius="12" Padding="18" Margin="16,0,0,0">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel>
+                    <TextBlock x:Name="lblModo" Text="Novo filme" FontSize="17" FontWeight="SemiBold"/>
+
+                    <TextBlock Text="Título" Style="{StaticResource Rotulo}"/>
+                    <TextBox x:Name="txtTitulo"/>
+
+                    <TextBlock Text="Diretor" Style="{StaticResource Rotulo}"/>
+                    <TextBox x:Name="txtDiretor"/>
+
+                    <TextBlock Text="Gênero" Style="{StaticResource Rotulo}"/>
+                    <ComboBox x:Name="cbGenero" IsEditable="True"/>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="12"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel>
+                            <TextBlock Text="Ano" Style="{StaticResource Rotulo}"/>
+                            <TextBox x:Name="txtAno"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="2">
+                            <TextBlock Text="Duração (min)" Style="{StaticResource Rotulo}"/>
+                            <TextBox x:Name="txtDuracao"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <CheckBox x:Name="chkAssistido" Content="Já assisti" Margin="0,14,0,0" Checked="Assistido_Mudou" Unchecked="Assistido_Mudou"/>
+
+                    <TextBlock Text="Nota" Style="{StaticResource Rotulo}"/>
+                    <ComboBox x:Name="cbNota" SelectedIndex="0">
+                        <ComboBoxItem Content="Sem nota"/>
+                        <ComboBoxItem Content="★"/>
+                        <ComboBoxItem Content="★★"/>
+                        <ComboBoxItem Content="★★★"/>
+                        <ComboBoxItem Content="★★★★"/>
+                        <ComboBoxItem Content="★★★★★"/>
+                    </ComboBox>
+
+                    <TextBlock x:Name="lblAviso" Foreground="{StaticResource Erro}" TextWrapping="Wrap" Margin="0,12,0,0"/>
+
+                    <Button Content="Salvar" Style="{StaticResource BotaoDourado}" Margin="0,12,0,0" Click="Salvar_Click"/>
+                    <Grid Margin="0,10,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Button Content="Novo" Style="{StaticResource BotaoContorno}" Click="Novo_Click"/>
+                        <Button x:Name="btnExcluir" Grid.Column="2" Content="Excluir" Style="{StaticResource BotaoContorno}" IsEnabled="False" Click="Excluir_Click"/>
+                    </Grid>
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+    </Grid>
+</Window>

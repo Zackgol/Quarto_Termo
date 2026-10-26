@@ -1,0 +1,32 @@
+<Window x:Class="CineDiario.Views.RoletaWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Roleta - CineDiário" Height="600" Width="620"
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize"
+        Background="{StaticResource Fundo}" Foreground="{StaticResource Texto}" FontFamily="Segoe UI">
+    <StackPanel Margin="30,24">
+        <TextBlock Text="🎲  Roleta" FontSize="24" FontWeight="Bold" Foreground="{StaticResource Dourado}"/>
+        <TextBlock Text="Sem saber o que ver? Diga quanto tempo você tem e a roleta escolhe um filme da sua fila." Foreground="{StaticResource TextoSuave}" TextWrapping="Wrap" Margin="0,4,0,10"/>
+
+        <TextBlock Text="Quanto tempo você tem?" Style="{StaticResource Rotulo}"/>
+        <DockPanel>
+            <TextBlock x:Name="lblTempo" DockPanel.Dock="Right" Width="90" TextAlignment="Right" FontSize="16" FontWeight="SemiBold" Foreground="{StaticResource Dourado}" VerticalAlignment="Center"/>
+            <Slider x:Name="sldTempo" Minimum="60" Maximum="240" Value="120" TickFrequency="10" IsSnapToTickEnabled="True" VerticalAlignment="Center" ValueChanged="Tempo_Mudou"/>
+        </DockPanel>
+
+        <TextBlock Text="Gênero" Style="{StaticResource Rotulo}"/>
+        <ComboBox x:Name="cbGenero"/>
+
+        <Button x:Name="btnGirar" Content="Girar a roleta" Style="{StaticResource BotaoDourado}" Margin="0,20,0,0" Click="Girar_Click"/>
+
+        <Border Background="{StaticResource Painel}" BorderBrush="{StaticResource Cortina}" BorderThickness="2" CornerRadius="14" Padding="20" Margin="0,20,0,0" MinHeight="150">
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock Text="HOJE NA SESSÃO" Foreground="{StaticResource TextoSuave}" FontSize="12" HorizontalAlignment="Center"/>
+                <TextBlock x:Name="txtFilme" Text="?" FontSize="26" FontWeight="Bold" Foreground="{StaticResource Dourado}" TextWrapping="Wrap" TextAlignment="Center" Margin="0,6"/>
+                <TextBlock x:Name="txtDetalhe" Foreground="{StaticResource TextoSuave}" TextAlignment="Center" TextWrapping="Wrap"/>
+            </StackPanel>
+        </Border>
+
+        <Button x:Name="btnAssistido" Content="Assisti! Tirar da fila" Style="{StaticResource BotaoContorno}" Margin="0,14,0,0" Visibility="Collapsed" Click="Assistido_Click"/>
+    </StackPanel>
+</Window>

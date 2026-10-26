@@ -1,0 +1,25 @@
+<Window x:Class="CineDiario.Views.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CineDiário - Entrar" Height="520" Width="400"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Background="{StaticResource Fundo}" Foreground="{StaticResource Texto}" FontFamily="Segoe UI">
+    <Grid Margin="40,30">
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock Text="🎬" FontSize="44" HorizontalAlignment="Center"/>
+            <TextBlock Text="CineDiário" FontSize="30" FontWeight="Bold" Foreground="{StaticResource Dourado}" HorizontalAlignment="Center"/>
+            <TextBlock Text="seu diário de filmes" Foreground="{StaticResource TextoSuave}" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+            <TextBlock Text="Usuário" Style="{StaticResource Rotulo}"/>
+            <TextBox x:Name="txtLogin"/>
+
+            <TextBlock Text="Senha" Style="{StaticResource Rotulo}"/>
+            <PasswordBox x:Name="txtSenha" KeyDown="Senha_KeyDown"/>
+
+            <TextBlock x:Name="lblAviso" Foreground="{StaticResource Erro}" TextWrapping="Wrap" Margin="0,12,0,0" MinHeight="20"/>
+
+            <Button x:Name="btnEntrar" Content="Entrar" Style="{StaticResource BotaoDourado}" Margin="0,10,0,0" Click="Entrar_Click"/>
+            <Button Content="Criar conta com esses dados" Style="{StaticResource BotaoContorno}" Margin="0,10,0,0" Click="CriarConta_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
