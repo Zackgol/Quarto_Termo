@@ -1,0 +1,69 @@
+CREATE DATABASE escolinha_futebol;
+USE escolinha_futebol;
+
+CREATE TABLE categoria (
+    id_categoria INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(20) NOT NULL,
+    idade_max INT NOT NULL
+);
+
+CREATE TABLE atleta (
+    id_atleta INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    data_nasc DATE NOT NULL,
+    posicao VARCHAR(30),
+    telefone_resp VARCHAR(15),
+    id_categoria INT NOT NULL,
+    FOREIGN KEY (id_categoria) REFERENCES categoria(id_categoria)
+);
+
+INSERT INTO categoria (nome, idade_max) VALUES
+('Sub-9', 9),
+('Sub-11', 11),
+('Sub-13', 13),
+('Sub-15', 15);
+
+PREPARE cadastrar FROM
+'INSERT INTO atleta (nome, data_nasc, posicao, telefone_resp, id_categoria) VALUES (?, ?, ?, ?, ?)';
+
+SET @nome = 'Lucas Ferreira', @nasc = '2015-03-12', @pos = 'Atacante', @tel = '18997651234', @cat = 2;
+EXECUTE cadastrar USING @nome, @nasc, @pos, @tel, @cat;
+
+SET @nome = 'Gabriel Souza', @nasc = '2013-07-25', @pos = 'Goleiro', @tel = '18996543210', @cat = 3;
+EXECUTE cadastrar USING @nome, @nasc, @pos, @tel, @cat;
+
+SET @nome = 'Pedro Henrique Lima', @nasc = '2017-01-08', @pos = 'Meio-campo', @tel = '18991237788', @cat = 1;
+EXECUTE cadastrar USING @nome, @nasc, @pos, @tel, @cat;
+
+SET @nome = 'Matheus Oliveira', @nasc = '2012-11-30', @pos = 'Zagueiro', @tel = '18998884567', @cat = 4;
+EXECUTE cadastrar USING @nome, @nasc, @pos, @tel, @cat;
+
+SET @nome = 'Joao''; DROP TABLE atleta; --', @nasc = '2014-05-05', @pos = 'Lateral', @tel = '18990001111', @cat = 2;
+EXECUTE cadastrar USING @nome, @nasc, @pos, @tel, @cat;
+
+DEALLOCATE PREPARE cadastrar;
+
+SELECT a.id_atleta, a.nome, DATE_FORMAT(a.data_nasc, '%d/%m/%Y') AS nascimento,
+       a.posicao, c.nome AS categoria, a.telefone_resp
+FROM atleta a
+INNER JOIN categoria c ON c.id_categoria = a.id_categoria
+ORDER BY a.nome;
+
+PREPARE buscar FROM
+'SELECT a.nome, a.posicao, c.nome AS categoria
+ FROM atleta a
+ INNER JOIN categoria c ON c.id_categoria = a.id_categoria
+ WHERE a.nome LIKE ?';
+
+SET @busca = '%Lucas%';
+EXECUTE buscar USING @busca;
+
+DEALLOCATE PREPARE buscar;
+
+SELECT c.nome AS categoria, COUNT(a.id_atleta) AS total
+FROM categoria c
+LEFT JOIN atleta a ON a.id_categoria = c.id_categoria
+GROUP BY c.id_categoria, c.nome;
+
+SELECT COUNT(*) AS total_atletas FROM atleta;
+
