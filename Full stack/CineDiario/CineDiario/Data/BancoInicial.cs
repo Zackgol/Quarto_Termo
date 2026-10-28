@@ -1,5 +1,6 @@
 using CineDiario.Models;
 using CineDiario.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace CineDiario.Data;
 
@@ -8,7 +9,7 @@ public static class BancoInicial
     public static void Preparar()
     {
         using var db = new CineContext();
-        db.Database.EnsureCreated();
+        db.Database.Migrate();
 
         if (!db.Usuarios.Any())
         {
